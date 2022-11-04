@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="row-c">
+        <form action="encuesta" method="post">
+            <div class="row-sb">
+                <label for="name">Your Name:</label>
+                <input id="name" name="name" type="text">
+            </div>
+            <div class="row-sb">
+                <label for="location">Dojo Location</label>
+                <select name="location" id="location">
+                    <option value="Mountain View">Mountain View</option>
+                    <option value="La Florida">La Florida</option>
+                    <option value="Santiago">Santiago</option>
+                    <option value="Buin">Buin</option>
+                </select>
+            </div>
+            <div class="row-sb">
+                <label for="language">Favorite Language</label>
+                <select name="language" id="language">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Java">Java</option>
+                    <option value="Phyton">Phyton</option>
+                    <option value="C++">C++</option>
+                </select>
+            </div>
+            <div>
+                <div class="row-fs">
+                    <span>Comment (optional):</span>
+                </div>
+                <textarea name="comment" id="" cols="34" rows="5"></textarea>
+            </div>
+            <div>
+                <button>Enviar</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
